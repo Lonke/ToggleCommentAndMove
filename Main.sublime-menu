@@ -1,0 +1,9 @@
+[
+    {
+        "id": "edit",
+        "children":
+        [
+            {"command": "toggle_comment_and_move", "caption": "Toggle Comment and Move"},
+        ]
+    }
+]
