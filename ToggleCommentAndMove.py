@@ -98,7 +98,7 @@ class ToggleCommentAndMoveCommand(sublime_plugin.TextCommand):
         else:
             self.view.run_command("toggle_comment", {"block": False})
 
-        # if move:
-            # self.view.run_command("move", {"by": "lines", "forward": forward})
+        if move:
+            self.view.run_command("move", {"by": "lines", "forward": forward})
 
 
