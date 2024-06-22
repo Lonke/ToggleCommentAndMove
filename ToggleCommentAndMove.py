@@ -8,7 +8,7 @@ def GetCommentSymbol(cmd_ctx):
 
     # {'value': '#', name: 'TM_COMMENT_START'}
     for symbol_entry in syntax_symbols:
-        symbol, name = symbol_entry.values()
+        name, symbol = symbol_entry.values()
         if name == 'TM_COMMENT_START':
             return symbol
 
